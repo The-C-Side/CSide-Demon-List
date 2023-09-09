@@ -6,7 +6,8 @@
       "title": "Hard Machine",
       "creator": "Komp, nikroplays, and viri",
       "author": "Komp",
-      "verifier": "IceboxOG"
+      "verifier": "Varium",
+      "firstvictor": "IceboxOG"
     },
 
     "two": {
@@ -15,7 +16,18 @@
       "title": "SARY NEVER CLEAR",
       "author": "IIKugelBlitZII",
       "creator": "Optic Sunflow and more",
-      "verifier": "IceboxOG"
+      "verifier": "Spamdrew128",
+      "firstvictor": "IceboxOG"
+    },
+
+    "three": {
+      "position": "3",
+      "thumb": "https://i.ytimg.com/vi/mEXGlrNMyR4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBCTu046yCS6wjMr34AVc8PsaEMUg",
+      "title": "RUST",
+      "author": "Neigefeu",
+      "creator": "Neigefeu",
+      "verifier": "Kier",
+      "firstvictor": "IceboxOG"
     }
   }
 }
