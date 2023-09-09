@@ -15,14 +15,14 @@ p {
   margin-bottom: 0px;
 }
 
-.thumbnail {
+.thumbnail, .level-thumbnail {
   width: 240px;
   border-radius: 16px;
 }
 
 .info-grid {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
   column-gap: 12px;
   align-items: center;
 }
@@ -45,15 +45,17 @@ p {
 }
 
 .level-title {
-  font-size: 50px;
+  font-size: 1.5em;
   font-weight: bold;
+  color: #222;
+  text-align: left;
 }
 
 .level-author {
-  font-size: 25px;
+  font-size: 1.17em;
   font-style: italic;
   font-weight: bold;
-  color: rgb(50, 50, 50);
+  color: #444446;
 }
 
 .level-title, .level-author {
