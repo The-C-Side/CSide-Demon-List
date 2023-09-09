@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The C-Side Demon List</title>
+  <link rel=stylesheet href="css/list.css">
+</head>
+<body>
+  <div class="level-list">
+    <div class="level-preview" id="level-1">
+      <div class="info-grid">
+        <div class="level-thumbnail" id="thumbnail-1">
+          <script>
+            fetch("./data/levels.json")
+              .then(res => res.json())
+                .then(json => {
+                  let img = document.createElement('img');
+                  let imgsrc = JSON.parse(JSON.stringify(json.pos.one.thumb))
+                  img.src = imgsrc
+                  img.className = "thumbnail"
+                  document.getElementById("thumbnail-1").appendChild(img)
+                })
+          </script>
+        </div>
+        <div class="title">
+          <div class="level-title" id="title-1">
+            <script>
+              fetch("./data/levels.json")
+                .then(res => res.json())
+                  .then(json => {
+                    document.querySelector("#title-1")
+                      .innerText = "#1 - " + JSON.parse(JSON.stringify(json.pos.one.title))
+                  })
+            </script>
+          </div>
+          <div class="level-author" id="author-1">
+            <script>
+              fetch("./data/levels.json")
+                .then(res => res.json())
+                  .then(json => {
+                    document.querySelector("#author-1")
+                      .innerText = JSON.parse(JSON.stringify(json.pos.one.author))
+                  })
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="level-preview" id="level-2">
+      <div class="info-grid">
+        <div class="level-thumbnail" id="thumbnail-2">
+          <script>
+            fetch("./data/levels.json")
+              .then(res => res.json())
+                .then(json => {
+                  let img = document.createElement('img');
+                  let imgsrc = JSON.parse(JSON.stringify(json.pos.two.thumb))
+                  img.src = imgsrc
+                  img.className = "thumbnail"
+                  document.getElementById("thumbnail-2").appendChild(img)
+                })
+          </script>
+        </div>
+        <div class="title">
+          <div class="level-title" id="title-2">
+            <script>
+              fetch("./data/levels.json")
+                .then(res => res.json())
+                  .then(json => {
+                    document.querySelector("#title-2")
+                      .innerText = "#2 - " + JSON.parse(JSON.stringify(json.pos.two.title))
+                  })
+            </script>
+          </div>
+          <div class="level-author" id="author-2">
+            <script>
+              fetch("./data/levels.json")
+                .then(res => res.json())
+                  .then(json => {
+                    document.querySelector("#author-2")
+                      .innerText = JSON.parse(JSON.stringify(json.pos.two.author))
+                  })
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
