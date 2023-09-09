@@ -15,7 +15,7 @@ p {
   margin-bottom: 0px;
 }
 
-.thumbnail {
+.thumbnail, .level-thumbnail {
   width: 240px;
   border-radius: 16px;
 }
