@@ -7,7 +7,7 @@
 <body>
   <div class="level-list">
     
-    <div class="level-preview" id="level-1">
+    <div class="level-preview" id="level-1" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')">
       <div class="info-grid">
         <div class="level-thumbnail" id="thumbnail-1">
           <script>
@@ -47,7 +47,7 @@
       </div>
     </div>
 
-    <div class="level-preview" id="level-2">
+    <div class="level-preview" id="level-2" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')">
       <div class="info-grid">
         <div class="level-thumbnail" id="thumbnail-2">
           <script>
@@ -87,7 +87,7 @@
       </div>
     </div>
 
-    <div class="level-preview" id="level-3">
+    <div class="level-preview" id="level-3" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')">
       <div class="info-grid">
         <div class="level-thumbnail" id="thumbnail-3">
           <script>
@@ -109,7 +109,7 @@
                 .then(res => res.json())
                   .then(json => {
                     document.querySelector("#title-3")
-                      .innerText = "#3 - " + JSON.parse(JSON.stringify(json.pos.three.title))
+                      .innerText = "#3 - " + JSON.parse(JSON.stringify(json.pos.title))
                   })
             </script>
           </div>
